@@ -5,14 +5,15 @@
 body {  
         background-image: linear-gradient(to bottom right, #78d5db , #30aab3);
         font-family:Comic Sans MS, Comic Sans, cursive,Arial, sans-serif ;
-        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
         }
-@media (max-width: 999px){
+@media (max-width: 1400px){
         .logo{display: none;}
         .NavArea{display: none;}
         }
 
-@media (min-width: 1000px){
+@media (min-width: 1400px){
         .mobile-menu{display: none;}
 }
 
@@ -133,6 +134,7 @@ DESKTOP DISPLAY
                 z-index: -3;
                 position: sticky;
                 margin-top: 25px;
+                margin-bottom: 25px;
                 font-size: 20px;
                 
                 }
@@ -144,127 +146,8 @@ DESKTOP DISPLAY
                 white-space: nowrap;
                 }
         }
-/*================================================*/
 
-@media (min-width: 1000px) and (max-width:1399px){
-        .logo   { 
-                font-size: 20px; 
-                color:#95dee3;
-                display: flex;
-                justify-content: left;
-                height: 66px;
-                width: 260px;
-                background-color:#c0ebee;
-
-                }
-        }
-
-@media (min-width: 1000px) and (max-width:1399px){
-        .logo p {
-                padding-left: 1.3em;
-                text-decoration: underline;
-                text-decoration-thickness: 50%;
-                font-weight: bold;
-                letter-spacing: 2px;
-                height: 10px;
-                width: 260px;
-                border:2px;
-                margin-top: 10px;
-                }
-        }
-
- @media (min-width: 1000px) and (max-width:1399px){     
-        .NavArea{
-                display:flex;
-                background-color:#5bcbd3 ; 
-                background-position: 10em;
-                width: auto;
-                height: 4em;
-                margin: 0;
-                }
-        }
-
- @media (min-width: 1000px) and (max-width:1399px){       
-        .NavArea .container { 
-                display: flex;
-                font-weight: bold;
-                justify-content: center;
-                padding-left: 10em;
-                margin-top: 5px;
-                width: auto;
-                }
-        }
-
-@media (min-width: 1000px) and (max-width:1399px){
-        #home{
-                flex-direction:row;
-                padding-right: 1em; 
-                font-size: 40px;
-                color: #95dee3;
-                z-index: 3;
-                }
-        }
-
-@media (min-width: 1000px) and (max-width:1399px){       
-        #GalleryPage{
-                flex-direction:row;
-                padding-right: 2em; 
-                font-size: 40px;
-                color: #95dee3;
-                z-index: 3;
-                }
-        }
-
-@media (min-width: 1000px) and (max-width:1399px){       
-        #AboutPage{
-                flex-direction:row;
-                padding-right: 2.5em; 
-                font-size: 40px;
-                color:#95dee3;
-                z-index: 3;
-                }
-        }
-
-@media (min-width: 1000px) and (max-width:1399px){       
-        #BlogPage{
-                flex-direction:row;
-                padding-right: 3em; 
-                font-size: 40px;
-                color:#95dee3;
-                z-index: 3;
-                }
-        }
-
-@media (min-width: 1000px) and (max-width:1399px){      
-        .WelcomeArea{
-                width: 100%;
-                height: 50em;
-                background-color: gray;
-                }
-        }
-
-@media (min-width: 1000px) and (max-width:1399px){       
-        .footer-list{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                flex-wrap: wrap;
-                gap: 20px;
-                list-style: none;
-                z-index: -3;
-                position: sticky;
-                margin-top: 25px;
-                font-size: 20px;
-                }
-        }
-
-@media (min-width: 1000px) and (max-width:1399px){       
-        .footer-list li {
-                display: inline;
-                white-space: nowrap;
-                }
-        }
-
+        
 /*====================================================
 MOBLIE DISPLAY
 ====================================================*/
@@ -289,7 +172,7 @@ MOBLIE DISPLAY
         color: #78d5db;
         }
 
-@media (max-width: 999px){
+@media (max-width: 1400px){
         .mobile-logo  { 
                 font-size: 20px; 
                 color:#95dee3;
@@ -304,7 +187,7 @@ MOBLIE DISPLAY
                 }
         }
 
-@media (max-width: 999px){
+@media (max-width: 1400px){
         .mobile-logo p {
                 padding-left: 1.3em;
                 text-decoration: underline;
@@ -318,7 +201,7 @@ MOBLIE DISPLAY
                 }
         }
 
- @media (max-width: 999px){     
+ @media (max-width: 1400px){     
         .mobile-menu{
                 max-width: 990px;
                 margin: auto;
@@ -327,7 +210,7 @@ MOBLIE DISPLAY
                 }
         }
 
- @media (max-width: 999px){      
+ @media (max-width: 1400px){      
         .mobile-menu .links-container {
                 display: none;
                 flex-direction: column;
@@ -338,7 +221,7 @@ MOBLIE DISPLAY
 
 
  
-@media (max-width: 999px){       
+@media (max-width: 1400px){       
         #mhome {
                 display: flex;
                 justify-content: center;
@@ -350,7 +233,7 @@ MOBLIE DISPLAY
                 }
         }
 
-@media (max-width: 999px){       
+@media (max-width: 1400px){       
         #mgallery {
                 display: flex;
                 justify-content: center;
@@ -362,7 +245,7 @@ MOBLIE DISPLAY
                 }
         }
 
-@media (max-width: 999px){       
+@media (max-width: 1400px){       
         #maboutus {
                 display: flex;
                 justify-content: center;
@@ -374,7 +257,7 @@ MOBLIE DISPLAY
                 }
         }
 
-@media (max-width: 999px){       
+@media (max-width: 1400px){       
         #mblog {
                 display: flex;
                 justify-content: center;
@@ -386,7 +269,7 @@ MOBLIE DISPLAY
                 }
         }        
 
-@media (max-width: 999px){       
+@media (max-width: 1400px){       
         .WelcomeArea{
                 top: -200px;
                 background-color: gray;
@@ -399,7 +282,7 @@ MOBLIE DISPLAY
 
 
 
-@media (max-width: 999px){       
+@media (max-width: 1400px){       
         .footer-list li {
                 display: inline;
                 white-space: nowrap;
@@ -407,8 +290,13 @@ MOBLIE DISPLAY
                 flex-direction: row;
                 justify-content: center;
                 flex-wrap: wrap;
-                margin-top: -12vh;
-                font-size: 10px;
-                gap: 1px;
+                margin-top:-80px;
+                margin-bottom: 30px;
+                font-size: 20px;
+                padding-top: auto;
+                padding-left:50%;
+                padding-right:50%;
+                padding-bottom:5vh;
+                
                 }
         }
