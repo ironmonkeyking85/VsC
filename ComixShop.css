@@ -3,10 +3,11 @@
         margin: 0;
         }
 body {  
-        background-color: #95dee3;
+        background-image: linear-gradient(to bottom right, #78d5db , #30aab3);
         font-family:Comic Sans MS, Comic Sans, cursive,Arial, sans-serif ;
+        overflow: hidden;
         }
-@media (max-width: 990px){
+@media (max-width: 999px){
         .logo{display: none;}
         .NavArea{display: none;}
         }
@@ -122,19 +123,18 @@ DESKTOP DISPLAY
 
  @media (min-width: 1400px){       
         .footer-list{
-                position: fixed;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 flex-wrap: wrap;
                 gap: 20px;
                 list-style: none;
-                padding: 0;
-                margin: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
                 text-align: center;
+                z-index: -3;
+                position: sticky;
+                margin-top: 25px;
+                font-size: 20px;
+                
                 }
         }
 
@@ -178,8 +178,9 @@ DESKTOP DISPLAY
                 display:flex;
                 background-color:#5bcbd3 ; 
                 background-position: 10em;
-                width: 100%;
+                width: auto;
                 height: 4em;
+                margin: 0;
                 }
         }
 
@@ -190,6 +191,7 @@ DESKTOP DISPLAY
                 justify-content: center;
                 padding-left: 10em;
                 margin-top: 5px;
+                width: auto;
                 }
         }
 
@@ -249,8 +251,10 @@ DESKTOP DISPLAY
                 flex-wrap: wrap;
                 gap: 20px;
                 list-style: none;
-                padding: 0;
-                margin: 0;
+                z-index: -3;
+                position: sticky;
+                margin-top: 25px;
+                font-size: 20px;
                 }
         }
 
@@ -285,7 +289,7 @@ MOBLIE DISPLAY
         color: #78d5db;
         }
 
-@media (max-width: 990px){
+@media (max-width: 999px){
         .mobile-logo  { 
                 font-size: 20px; 
                 color:#95dee3;
@@ -300,7 +304,7 @@ MOBLIE DISPLAY
                 }
         }
 
-@media (max-width: 990px){
+@media (max-width: 999px){
         .mobile-logo p {
                 padding-left: 1.3em;
                 text-decoration: underline;
@@ -314,7 +318,7 @@ MOBLIE DISPLAY
                 }
         }
 
- @media (max-width: 990px){     
+ @media (max-width: 999px){     
         .mobile-menu{
                 max-width: 990px;
                 margin: auto;
@@ -323,7 +327,7 @@ MOBLIE DISPLAY
                 }
         }
 
- @media (max-width: 990px){      
+ @media (max-width: 999px){      
         .mobile-menu .links-container {
                 display: none;
                 flex-direction: column;
@@ -334,7 +338,7 @@ MOBLIE DISPLAY
 
 
  
-@media (max-width: 990px){       
+@media (max-width: 999px){       
         #mhome {
                 display: flex;
                 justify-content: center;
@@ -342,11 +346,11 @@ MOBLIE DISPLAY
                 border-bottom: 6px dotted #95dee3;
                 padding-left: 50%;
                 padding-right: 50%;
-                background-image: linear-gradient(to bottom, #78d5db , #30aab3)
+                background-image: linear-gradient(to bottom right, #78d5db , #30aab3)
                 }
         }
 
-@media (max-width: 990px){       
+@media (max-width: 999px){       
         #mgallery {
                 display: flex;
                 justify-content: center;
@@ -354,11 +358,11 @@ MOBLIE DISPLAY
                 border-bottom: 6px dotted #95dee3;
                 padding-left: 50%;
                 padding-right: 50%;
-                background-image: linear-gradient(to bottom, #78d5db , #30aab3)
+                background-image: linear-gradient(to bottom right, #78d5db , #30aab3)
                 }
         }
 
-@media (max-width: 990px){       
+@media (max-width: 999px){       
         #maboutus {
                 display: flex;
                 justify-content: center;
@@ -366,11 +370,11 @@ MOBLIE DISPLAY
                 border-bottom: 6px dotted #95dee3;
                 padding-left: 50%;
                 padding-right: 50%;
-                background-image: linear-gradient(to bottom, #78d5db , #30aab3)
+                background-image: linear-gradient(to bottom right, #78d5db , #30aab3)
                 }
         }
 
-@media (max-width: 990px){       
+@media (max-width: 999px){       
         #mblog {
                 display: flex;
                 justify-content: center;
@@ -378,39 +382,33 @@ MOBLIE DISPLAY
                 border-bottom: 6px solid #95dee3;
                 padding-left: 50%;
                 padding-right: 50%;
-                background-image: linear-gradient(to bottom, #78d5db , #30aab3)
+                background-image: linear-gradient(to bottom right, #78d5db , #30aab3)
                 }
         }        
 
-@media (max-width: 990px){       
+@media (max-width: 999px){       
         .WelcomeArea{
                 top: -200px;
                 background-color: gray;
                 width: auto;
-                height: 580px;
+                height: 72vh;
                 position: relative;
                 z-index: -3;
                 }
         }
 
- @media (max-width: 990px){     
-        .footer-list{
+
+
+@media (max-width: 999px){       
+        .footer-list li {
+                display: inline;
+                white-space: nowrap;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 flex-wrap: wrap;
-                gap: 20px;
-                padding: 0;
-                margin: 0;
-                width: auto;
-                z-index: -3;
-                position: sticky;
-                }
-        }
-
-@media (max-width: 990px){       
-        .footer-list li {
-                display: inline;
-                white-space: nowrap;
+                margin-top: -12vh;
+                font-size: 10px;
+                gap: 1px;
                 }
         }
