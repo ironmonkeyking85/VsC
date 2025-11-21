@@ -351,26 +351,32 @@ BLOG
                display: flex;
                flex-direction: row;
                margin: 10%;
-               justify-content: center;
                flex-wrap: wrap;
                border: 4px solid #30aab3;
                padding-top: 5em;
+               padding-left: 2%;
                background-image: linear-gradient(to bottom right, #336f74, #0f0f0f);
         }
 
         #blerbs{
                 display: flex;
                 
-                width: 500px;
+                width: 450px;
                 margin-bottom: 10%;
-                left: 60em;
+                margin-left: 40em;
+                padding-left: 10%;
                 bottom: 30em;
+                top: -100%;
+                margin-top: -2em;
+                border-bottom: 2px solid #30aab3;
         }
 
         #thumbnail{
                 position: relative;
                 width: 400px;
                 height: auto;
+                margin-top:5em;
+                margin-left: 2.5em;
                 margin-bottom: 5em;
                 border-radius: 24px;
         }
@@ -380,10 +386,61 @@ BLOG
                 
                 position: relative;
                 
-                left: 16em;
-                bottom: 3em;
+                left: 25em;
+                bottom: 45em;
         }
 }
 
 
-@media (max-width: 1399px){}
+@media  (max-width: 1399px){
+
+ .bRow{
+               display: flex;
+               flex-direction: row;
+               margin: 10%;
+               justify-content: center;
+               flex-wrap: wrap;
+               border: 4px solid #30aab3;
+               border-radius: 24px;
+               padding-top: 5em;
+              
+        }
+
+        .column{
+                display: flex;
+                flex-direction: column;
+        }
+
+        #blerbs{
+                display: flex;
+                width: 100%;
+                margin-bottom: 25%;
+                left: 60em;
+                bottom: 30em;
+                border-bottom:3px solid #1c7272;
+                padding-left: 4%;
+        }
+
+        #thumbnail{
+                position: relative;
+                width: 80%;
+                height: auto;
+                margin-bottom: 1.2em;
+                border-radius: 24px;
+                left: 10% ;
+        }
+
+
+        #Dates{
+                display: block;
+                position: relative;
+                margin-left: 3em;
+                
+        }
+
+
+
+}
+
+
+  
