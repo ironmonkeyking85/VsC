@@ -1,12 +1,12 @@
-const logoText = document.querySelector('.logo p');
+//const logoText = document.querySelector('.logo p');
 
 // Logo hover effect
-logoText.addEventListener('mouseover', function() {
-    this.style.color = 'white'; 
-});
-logoText.addEventListener('mouseout', function() {
-    this.style.color = '#95dee3'; 
-});
+//logoText.addEventListener('mouseover', function() {
+ //   this.style.color = 'white'; 
+//});
+//logoText.addEventListener('mouseout', function() {
+ //   this.style.color = '#336f74'; 
+//});
 
 
 // ----- Mobile Menu -----

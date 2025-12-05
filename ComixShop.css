@@ -16,6 +16,11 @@ body {
         height: 100%;
 }
 
+::placeholder{
+    color: white;
+    padding-left: 10%;
+    opacity: 0.5;
+}
 
 /* ============================================================
 RESPONSIVE VISIBILITY
@@ -42,7 +47,7 @@ DESKTOP NAVIGATION
     /* Logo */
     .logo {
         font-size: 20px;
-        color: #95dee3;
+        color: #336f74;
         display: flex;
         align-items: center;
         height: 66px;
@@ -92,7 +97,7 @@ DESKTOP NAVIGATION
         margin: auto;
         width: 60%;
         height: 50em;
-        background-image: url("Superman banner.jpg");
+        background-image: url("images/Superman\ banner.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         border: 5px solid #30aab3;
@@ -103,7 +108,7 @@ DESKTOP NAVIGATION
         position: absolute;
         top: 50%;
         left: 50%;
-        font-size: 100px;
+        font-size: 75px;
         font-weight: 900;
         transform: translate(-50%, -50%);
         background-color: rgb(97, 96, 96, 0.7);
@@ -128,6 +133,7 @@ DESKTOP NAVIGATION
         font-size: 20px;
         margin: 25px 0;
         text-align: center;
+        color: white;
     }
 
     .footer-list li {
@@ -160,8 +166,8 @@ MOBILE NAVIGATION
 
     /* Mobile Logo */
     .mobile-logo {
-        font-size: 20px;
-        color: #95dee3;
+        font-size: 25px;
+        color: white;
         background-color: #c0ebee;
         padding-left: 1em;
         display: flex;
@@ -212,7 +218,7 @@ MOBILE NAVIGATION
 
     /* Mobile Footer */
         .Footer{
-                padding-top: 5em;
+                padding-top: 2em;
         }
 
         .footer-list li {
@@ -220,11 +226,11 @@ MOBILE NAVIGATION
                 text-align: center;
                 margin: 3px ;
                 margin-right: 25%;
+                margin-left: 16%;
                 padding-bottom: 2vh;
                 white-space: wrap;
                 list-style-type: none;
-               
-        
+                color: white;
         }
 }
 
@@ -369,10 +375,10 @@ BLOG
                 font-size: 30px;
                 width: 80%;
                 margin-bottom: 10%;
-                margin-left: 2em;
+                margin-left: 3em;
                 bottom: 30em;
                 top: 2%;
-                margin-top: -2em;
+                margin-top: -6em;
                 border-bottom: 2px solid #30aab3;
                 padding: 4% 4% 4% 4%;
         }
@@ -384,7 +390,7 @@ BLOG
                 height: auto;
                 margin-top:5em;
                 margin-left: 15%;
-                margin-bottom: 5em;
+                margin-bottom: 1em;
                 border-radius: 24px;
                 padding: 4% 4% 4% 4%;
         }
@@ -428,6 +434,7 @@ BLOG
                 bottom: 30em;
                 border-bottom:3px solid #1c7272;
                 padding-left: 4%;
+                color: white;
         }
 
         #thumbnail{
@@ -450,5 +457,147 @@ BLOG
 }
 
 
+/* ============================================================
+CONTACT
+===============================================================*/
+#about-header{
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
 
+#about-text{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    color:white;
+    padding-bottom: 3%;
+    
+}
+
+.user-input{
+    
+    background-color:#30aab3;
+    }
+
+#submit-button{
+    background-color:#95dee3;
+    padding:10px 20px 10px 20px;
+    border-radius: 16px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+}
+
+
+
+@media (min-width: 800px) {
+    .user-input{
+        display: block;
+        position: relative;
+        padding-left: 15%;
+        padding-top: 1%;
+        height: 83vh;
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        justify-content: center;
+        
+        
+        
+    }
+    #submit-button:hover{
+        transform: scale(1.05);
+        color: white;
+    }
+    #submit-button:active{
+        background-color:#1c7272 ;
+    }
+
+    .user-input #fn{
+        width: 70%;
+        background: rgb(0 0 0 / 20%);
+        color: white;
+        border-radius: 16px;
+        padding-left: 10%;
+    }
+    .user-input #ln{
+        width: 70%;
+        background: rgb(0 0 0 / 20%);
+        color: white;
+        border-radius: 16px;
+        padding-left: 10%;
+    }
+
+    .user-input #email{
+        width: 70%;
+        background: rgb(0 0 0 / 20%);
+        color: white;
+        border-radius: 16px;
+        padding-left: 10%;
+    }
+
+     .user-input #ma{
+        width: 70%;
+        background: rgb(0 0 0 / 20%);
+        color: white;
+        border-radius: 16px;
+        text-align: center;
+        padding-top: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .user-input #submit-button{
+        width: 50%;
+        margin-left: 11%;
+    }
+}
+
+@media  (max-width: 799px){
+    .user-input{
+        padding: 10%;
+    }
+
+    .user-input #fn{
+        width: 100%;
+        border-radius: 16px;
+        background: rgb(0 0 0 / 20%);
+        color: white;
+        text-align: center;
+    }
+    .user-input #ln{
+        width: 100%;
+        border-radius: 16px;
+        background: rgb(0 0 0 / 20%);
+        color: white;
+        text-align: center;
+    }
+
+    .user-input #email{
+        width: 100%;
+        border-radius: 16px;
+        background: rgb(0 0 0 / 20%);
+        color: white;
+        text-align: center;
+    }
+
+    .user-input #ma{
+        width: 100%;
+        border-radius: 16px;
+        background: rgb(0 0 0 / 20%);
+        color: white;
+        text-align: center;
+    }
+
+    .user-input #submit-button{
+        width: 50%;
+        margin-left: 25%; 
+          
+    }
+}
   

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>ComixProShop</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="ComixShop.css">
+</head>
+
+<body>
+  <section class="NavArea">
+    <div class="logo" id="Logo" ><p>COMIXPRO SHOP</p></div>
+      <div class="container" id="nav-bar">
+        <a href="index.html" id="home"  style="text-decoration: none;" >Home</a>
+        <a href="Gallery.html" id="GalleryPage"  style="text-decoration: none;" >Gallery</a>
+        <a href="Blog.html" id="BlogPage" style="text-decoration: none;">Blog</a>
+      </div> 
+  </section>
+
+  <!--Mobile menu-->
+  <section class="mobile-menu">
+    <div class="mobile-logo" id="mini-logo" ><p>COMIXPRO SHOP</p></div>
+
+      <!--Hamburger menu button-->
+    <button class="menu-toggle" id="menu-toggle">
+      <span class="hamburger-icon">&#9776;</span>
+    </button>
+    
+      <div class="links-container">
+        <a href="index.html" id="mhome"  style="text-decoration: none;" >Home</a>
+        <a href="Gallery.html" id="mgallery"  style="text-decoration: none;" >Gallery</a>
+        <a href="Blog.html" id="mblog"  style="text-decoration: none;">Blog</a>
+      </div> 
+  </section>
+  
+  <section>
+      <h1 id="about-header">ABOUT US</h1>
+      <div id="about-text">
+        <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h4>
+      </div>
+     <form class="user-input" action="https://formsubmit.co/ktwilson_85@aol.com" method="POST">
+      <label for="first-name">First name:</label><br>
+      <input type="text" id="fn" name="first-name" placeholder="John"><br>
+      <label for="last-name">Last name:</label><br>
+      <input type="text" id="ln" name="last-name" placeholder="Doe"><br>
+      <label for="email">Enter Email address:</label><br>
+      <input type="hidden" name="_subject" value="Customer Email">
+      <input type="hidden" name="_template" value="table">
+      <input type="email" id="email" name="email" placeholder="JohnDoe@email.com" required><br><br>
+      <textarea name="message-area" id="ma" rows="20"  cols="40" placeholder="Enter message."></textarea><br>
+      <input type="submit" id="submit-button" value="Submit">
+     </form>
+  </section>
+
+
+ <section class="Footer">
+    <div class="container">
+      <ul class="footer-list">
+        <li>Copyright © 2025 Comicshop Pro.</li>
+        <li> All rights reserved.</li>
+        <li>Press / Media</li>
+        <li>Cookie Policy</li>
+      </ul>
+    </div>
+  </section>
+
+  <script src="ComicsShop.js"></script>
+
+</body>
+
+</html>
